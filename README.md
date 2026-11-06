@@ -96,7 +96,7 @@ A run exits with code 1 if any check fails.
 
 ## Result
 
-The committed run reports **95 checks, 95 PASS, 0 WARN, 0 FAIL**.
+The committed run reports **92 checks, 92 PASS, 0 WARN, 0 FAIL**.
 
 ## Notes on two accounting choices
 
