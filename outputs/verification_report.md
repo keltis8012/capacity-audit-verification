@@ -19,8 +19,8 @@
 | manifest sha256 04_PREMIUM/reports/kdd_observation.json | 5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664 | 5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664 | PASS | 639 bytes |
 | manifest sha256 05_SIGNAL/data/oulad_scores.csv | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | PASS | 20456090 bytes |
 | manifest sha256 05_SIGNAL/data/xtx_scores_clean.csv | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | PASS | 37611066 bytes |
-| manifest sha256 10_PAPER/figs/fig_manifest.json | 9cfaa0102dff70db489407887879198d30c4446cf1de5c5a0c9c1f1858543c6f | 9cfaa0102dff70db489407887879198d30c4446cf1de5c5a0c9c1f1858543c6f | PASS | 3969 bytes |
-| manifest sha256 build/manuscript.md | 2b6eed32ad52c3811e3fb4b6a2b908946fb6cc534a013d7bbf0b4a571b3ad893 | 2b6eed32ad52c3811e3fb4b6a2b908946fb6cc534a013d7bbf0b4a571b3ad893 | PASS | 60940 bytes |
+| manifest sha256 10_PAPER/figs/fig_manifest.json | ce1c972e8a6e2f257cbb742cf59b980c4a86ae3a5b1097c952c809d1ab11bf0f | ce1c972e8a6e2f257cbb742cf59b980c4a86ae3a5b1097c952c809d1ab11bf0f | PASS | 4015 bytes |
+| manifest sha256 build/manuscript.md | 516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559 | 516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559 | PASS | 61186 bytes |
 | OULAD rows (score panel) | 15889 | 15889 | PASS |  |
 | OULAD withdrawals (panel) | 3264 | 3264 | PASS |  |
 | OULAD reachable (panel) | 2688 | 2688 | PASS |  |
@@ -87,7 +87,7 @@
 | figure fig4 sha256 | 12a178bacbccf361ba24a3a53e3af97730d48b6adf682cc421b6d8d6e0e40fcb | 12a178bacbccf361ba24a3a53e3af97730d48b6adf682cc421b6d8d6e0e40fcb | PASS | byte hash |
 | figure fig4 data 04_PREMIUM/data/who_oulad_raw.csv | 17911f266b81eda17c74bbd518883bbb3310c6721dd16704ca468173d46aade7 | 17911f266b81eda17c74bbd518883bbb3310c6721dd16704ca468173d46aade7 | PASS | byte hash |
 | figure fig4 data 04_PREMIUM/data/delta_who_xtx_clean.csv | 9d96cbdde05ec365851e1b4ce21260a9b0abeb2e998c5d5b6dc681af4bc48aa5 | 9d96cbdde05ec365851e1b4ce21260a9b0abeb2e998c5d5b6dc681af4bc48aa5 | PASS | byte hash |
-| figure fig1 sha256 | 280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892 | 280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892 | PASS | byte hash |
+| figure fig1 sha256 | 4061ebd37bfbb34503f12ef287176a0e329fce2dce4f3ca830174f662e600a58 | 4061ebd37bfbb34503f12ef287176a0e329fce2dce4f3ca830174f662e600a58 | PASS | byte hash |
 | text contains Table 1 OULAD panel | True | True | PASS | token '15,889' |
 | text contains Table 1 XTX panel | True | True | PASS | token '134,032' |
 | text contains Table 1 KDD | True | True | PASS | token '120,542' |
