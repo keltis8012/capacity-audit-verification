@@ -19,7 +19,7 @@
 | manifest sha256 04_PREMIUM/reports/kdd_observation.json | 5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664 | 5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664 | PASS | 639 bytes |
 | manifest sha256 05_SIGNAL/data/oulad_scores.csv | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | PASS | 20456090 bytes |
 | manifest sha256 05_SIGNAL/data/xtx_scores_clean.csv | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | PASS | 37611066 bytes |
-| manifest sha256 10_PAPER/figs/fig_manifest.json | dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185 | dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185 | PASS | 4005 bytes |
+| manifest sha256 10_PAPER/figs/fig_manifest.json | 9c7e48a165cb0ee6ca33fd690d0283a70dc345cf7e9fa8e09b34d3054a711c7b | 9c7e48a165cb0ee6ca33fd690d0283a70dc345cf7e9fa8e09b34d3054a711c7b | PASS | 4005 bytes |
 | manifest sha256 build/manuscript.md | a9179cb1c11cffa13a753e797b324855339933fcaf9ca591ccfcc228646e80ee | a9179cb1c11cffa13a753e797b324855339933fcaf9ca591ccfcc228646e80ee | PASS | 61553 bytes |
 | OULAD rows (score panel) | 15889 | 15889 | PASS |  |
 | OULAD withdrawals (panel) | 3264 | 3264 | PASS |  |
@@ -77,9 +77,9 @@
 | fold height spread | 0.208 | 0.2076147689213623 | PASS |  |
 | figure fig5 sha256 | 6062f415fea43672a39dce3432ddb1b92d02e770a50930dd2ded0cd3d42fe1a5 | 6062f415fea43672a39dce3432ddb1b92d02e770a50930dd2ded0cd3d42fe1a5 | PASS | byte hash |
 | figure fig6 sha256 | 86f1105e7210c618f8fa3d5176e7fd37a47747d38348a0c5815e40c2eb9c38e2 | 86f1105e7210c618f8fa3d5176e7fd37a47747d38348a0c5815e40c2eb9c38e2 | PASS | byte hash |
-| figure fig7 sha256 | 15b07471e67893a005fd4eede4154c78adbef6cfa8f91b636a1e7d0f3c38d2fb | 15b07471e67893a005fd4eede4154c78adbef6cfa8f91b636a1e7d0f3c38d2fb | PASS | byte hash |
+| figure fig7 sha256 | a1f489572edd1abb3fcd1a55ee9880ec5c8405550ecbc8ac76528be579739ac5 | a1f489572edd1abb3fcd1a55ee9880ec5c8405550ecbc8ac76528be579739ac5 | PASS | byte hash |
 | figure fig8 sha256 | 2c4b4def87f5d5cc91fba723aa31523628f41b29072180c44357744759cdcdc4 | 2c4b4def87f5d5cc91fba723aa31523628f41b29072180c44357744759cdcdc4 | PASS | byte hash |
-| figure fig2 sha256 | 1e5afed007e929de557b74377a1465b834fad4f7321408df59d48e8dc7a68ba3 | 1e5afed007e929de557b74377a1465b834fad4f7321408df59d48e8dc7a68ba3 | PASS | byte hash |
+| figure fig2 sha256 | 5474f75c83b9521a46f6c9359ce7ac67dea52526be67fc03b6cbf1e2d8b9d421 | 5474f75c83b9521a46f6c9359ce7ac67dea52526be67fc03b6cbf1e2d8b9d421 | PASS | byte hash |
 | figure fig2 data 01_DATA/data/oulad_events.csv | 48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3 | 48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3 | PASS | byte hash |
 | figure fig2 data 05_SIGNAL/data/xtx_scores_clean.csv | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | PASS | byte hash |
 | figure fig3 sha256 | e92a4f6b7278a786a753aa345e1e075fcad4b5e9f1ff0b62c72b07e10cdc8b0d | e92a4f6b7278a786a753aa345e1e075fcad4b5e9f1ff0b62c72b07e10cdc8b0d | PASS | byte hash |
