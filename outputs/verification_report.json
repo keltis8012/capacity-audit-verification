@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T02:15:15.531285+00:00",
+  "generated_at": "2026-11-06T02:28:55.329607+00:00",
   "data_root": "D:\\Paper\\educational and teaching reform\\new_20261030",
   "n_checks": 95,
   "n_pass": 95,
@@ -112,11 +112,11 @@
     },
     {
       "name": "manifest sha256 build/manuscript.md",
-      "expected": "97201fae5e8cae45b1dc4983af1b1fd8b4324f269ef8fa2a757f9cc024005428",
-      "actual": "97201fae5e8cae45b1dc4983af1b1fd8b4324f269ef8fa2a757f9cc024005428",
+      "expected": "c0c3654492d2dac49fb790af2674d181878709b940fa64eb8bac4bce7d8b490b",
+      "actual": "c0c3654492d2dac49fb790af2674d181878709b940fa64eb8bac4bce7d8b490b",
       "delta": null,
       "status": "PASS",
-      "note": "59409 bytes"
+      "note": "60212 bytes"
     },
     {
       "name": "OULAD rows (score panel)",
