@@ -48,11 +48,11 @@
     "sha256": "c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257"
   },
   "10_PAPER/figs/fig_manifest.json": {
-    "bytes": 3969,
-    "sha256": "9cfaa0102dff70db489407887879198d30c4446cf1de5c5a0c9c1f1858543c6f"
+    "bytes": 4015,
+    "sha256": "ce1c972e8a6e2f257cbb742cf59b980c4a86ae3a5b1097c952c809d1ab11bf0f"
   },
   "build/manuscript.md": {
-    "bytes": 60940,
-    "sha256": "2b6eed32ad52c3811e3fb4b6a2b908946fb6cc534a013d7bbf0b4a571b3ad893"
+    "bytes": 61186,
+    "sha256": "516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559"
   }
 }
