@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T04:13:01.874264+00:00",
+  "generated_at": "2026-11-06T04:23:40.387235+00:00",
   "data_root": "D:\\Paper\\educational and teaching reform\\new_20261030",
   "n_checks": 92,
   "n_pass": 92,
@@ -104,19 +104,19 @@
     },
     {
       "name": "manifest sha256 10_PAPER/figs/fig_manifest.json",
-      "expected": "9cfaa0102dff70db489407887879198d30c4446cf1de5c5a0c9c1f1858543c6f",
-      "actual": "9cfaa0102dff70db489407887879198d30c4446cf1de5c5a0c9c1f1858543c6f",
+      "expected": "ce1c972e8a6e2f257cbb742cf59b980c4a86ae3a5b1097c952c809d1ab11bf0f",
+      "actual": "ce1c972e8a6e2f257cbb742cf59b980c4a86ae3a5b1097c952c809d1ab11bf0f",
       "delta": null,
       "status": "PASS",
-      "note": "3969 bytes"
+      "note": "4015 bytes"
     },
     {
       "name": "manifest sha256 build/manuscript.md",
-      "expected": "2b6eed32ad52c3811e3fb4b6a2b908946fb6cc534a013d7bbf0b4a571b3ad893",
-      "actual": "2b6eed32ad52c3811e3fb4b6a2b908946fb6cc534a013d7bbf0b4a571b3ad893",
+      "expected": "516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559",
+      "actual": "516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559",
       "delta": null,
       "status": "PASS",
-      "note": "60940 bytes"
+      "note": "61186 bytes"
     },
     {
       "name": "OULAD rows (score panel)",
@@ -648,8 +648,8 @@
     },
     {
       "name": "figure fig1 sha256",
-      "expected": "280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892",
-      "actual": "280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892",
+      "expected": "4061ebd37bfbb34503f12ef287176a0e329fce2dce4f3ca830174f662e600a58",
+      "actual": "4061ebd37bfbb34503f12ef287176a0e329fce2dce4f3ca830174f662e600a58",
       "delta": null,
       "status": "PASS",
       "note": "byte hash"
