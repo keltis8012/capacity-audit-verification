@@ -20,7 +20,7 @@
 | manifest sha256 05_SIGNAL/data/oulad_scores.csv | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | PASS | 20456090 bytes |
 | manifest sha256 05_SIGNAL/data/xtx_scores_clean.csv | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | PASS | 37611066 bytes |
 | manifest sha256 10_PAPER/figs/fig_manifest.json | dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185 | dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185 | PASS | 4005 bytes |
-| manifest sha256 build/manuscript.md | d2cc27aff00e6cf68ae1fcf0b646b782226689d3baa9282074e3d8caacbb0380 | d2cc27aff00e6cf68ae1fcf0b646b782226689d3baa9282074e3d8caacbb0380 | PASS | 61490 bytes |
+| manifest sha256 build/manuscript.md | a9179cb1c11cffa13a753e797b324855339933fcaf9ca591ccfcc228646e80ee | a9179cb1c11cffa13a753e797b324855339933fcaf9ca591ccfcc228646e80ee | PASS | 61553 bytes |
 | OULAD rows (score panel) | 15889 | 15889 | PASS |  |
 | OULAD withdrawals (panel) | 3264 | 3264 | PASS |  |
 | OULAD reachable (panel) | 2688 | 2688 | PASS |  |
