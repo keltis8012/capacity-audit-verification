@@ -19,8 +19,8 @@
 | manifest sha256 04_PREMIUM/reports/kdd_observation.json | 5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664 | 5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664 | PASS | 639 bytes |
 | manifest sha256 05_SIGNAL/data/oulad_scores.csv | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | 12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558 | PASS | 20456090 bytes |
 | manifest sha256 05_SIGNAL/data/xtx_scores_clean.csv | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | PASS | 37611066 bytes |
-| manifest sha256 10_PAPER/figs/fig_manifest.json | f422ab3674f38b38f4c18cb81a1ef0c0242b1d309a73b43a6afd004745e471fb | f422ab3674f38b38f4c18cb81a1ef0c0242b1d309a73b43a6afd004745e471fb | PASS | 4015 bytes |
-| manifest sha256 build/manuscript.md | 516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559 | 516924d68867a8fa3f25e81d47b9cd4bbc48f8ac69148101f63a92b450aef559 | PASS | 61186 bytes |
+| manifest sha256 10_PAPER/figs/fig_manifest.json | dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185 | dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185 | PASS | 4005 bytes |
+| manifest sha256 build/manuscript.md | d2cc27aff00e6cf68ae1fcf0b646b782226689d3baa9282074e3d8caacbb0380 | d2cc27aff00e6cf68ae1fcf0b646b782226689d3baa9282074e3d8caacbb0380 | PASS | 61490 bytes |
 | OULAD rows (score panel) | 15889 | 15889 | PASS |  |
 | OULAD withdrawals (panel) | 3264 | 3264 | PASS |  |
 | OULAD reachable (panel) | 2688 | 2688 | PASS |  |
@@ -75,14 +75,14 @@
 | fold position spread | 0.0026 | 0.002408849452037604 | PASS |  |
 | fold AUC spread | 0.0265 | 0.026510016568760276 | PASS |  |
 | fold height spread | 0.208 | 0.2076147689213623 | PASS |  |
-| figure fig5 sha256 | 219e1c40e52d47a6cb8b84190bb587cf06a4154db13e9fa7935f19a880f9e56d | 219e1c40e52d47a6cb8b84190bb587cf06a4154db13e9fa7935f19a880f9e56d | PASS | byte hash |
-| figure fig6 sha256 | e73d396e89b76a91f8657218dbabbfa6fc0c7f92fc0a036da5d3ffa19edc2054 | e73d396e89b76a91f8657218dbabbfa6fc0c7f92fc0a036da5d3ffa19edc2054 | PASS | byte hash |
-| figure fig7 sha256 | a30cb9295b55ae04f6b50c12cb2640646f3c53a12ec1d7cc7490289556befdc8 | a30cb9295b55ae04f6b50c12cb2640646f3c53a12ec1d7cc7490289556befdc8 | PASS | byte hash |
+| figure fig5 sha256 | 6062f415fea43672a39dce3432ddb1b92d02e770a50930dd2ded0cd3d42fe1a5 | 6062f415fea43672a39dce3432ddb1b92d02e770a50930dd2ded0cd3d42fe1a5 | PASS | byte hash |
+| figure fig6 sha256 | 86f1105e7210c618f8fa3d5176e7fd37a47747d38348a0c5815e40c2eb9c38e2 | 86f1105e7210c618f8fa3d5176e7fd37a47747d38348a0c5815e40c2eb9c38e2 | PASS | byte hash |
+| figure fig7 sha256 | 15b07471e67893a005fd4eede4154c78adbef6cfa8f91b636a1e7d0f3c38d2fb | 15b07471e67893a005fd4eede4154c78adbef6cfa8f91b636a1e7d0f3c38d2fb | PASS | byte hash |
 | figure fig8 sha256 | 2c4b4def87f5d5cc91fba723aa31523628f41b29072180c44357744759cdcdc4 | 2c4b4def87f5d5cc91fba723aa31523628f41b29072180c44357744759cdcdc4 | PASS | byte hash |
 | figure fig2 sha256 | 1e5afed007e929de557b74377a1465b834fad4f7321408df59d48e8dc7a68ba3 | 1e5afed007e929de557b74377a1465b834fad4f7321408df59d48e8dc7a68ba3 | PASS | byte hash |
 | figure fig2 data 01_DATA/data/oulad_events.csv | 48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3 | 48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3 | PASS | byte hash |
 | figure fig2 data 05_SIGNAL/data/xtx_scores_clean.csv | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257 | PASS | byte hash |
-| figure fig3 sha256 | 52ee569a0b4dd64dfbf1ff398c9b5249f425b650e384b5969fa263f3b6e65f20 | 52ee569a0b4dd64dfbf1ff398c9b5249f425b650e384b5969fa263f3b6e65f20 | PASS | byte hash |
+| figure fig3 sha256 | e92a4f6b7278a786a753aa345e1e075fcad4b5e9f1ff0b62c72b07e10cdc8b0d | e92a4f6b7278a786a753aa345e1e075fcad4b5e9f1ff0b62c72b07e10cdc8b0d | PASS | byte hash |
 | figure fig3 data 05_SIGNAL/data/per_course_auc.csv | 544eab72167c5a164f2e8a2fdc1cb8f72a3010eef91da503cc78458023993877 | 544eab72167c5a164f2e8a2fdc1cb8f72a3010eef91da503cc78458023993877 | PASS | byte hash |
 | figure fig4 sha256 | 12a178bacbccf361ba24a3a53e3af97730d48b6adf682cc421b6d8d6e0e40fcb | 12a178bacbccf361ba24a3a53e3af97730d48b6adf682cc421b6d8d6e0e40fcb | PASS | byte hash |
 | figure fig4 data 04_PREMIUM/data/who_oulad_raw.csv | 17911f266b81eda17c74bbd518883bbb3310c6721dd16704ca468173d46aade7 | 17911f266b81eda17c74bbd518883bbb3310c6721dd16704ca468173d46aade7 | PASS | byte hash |
