@@ -1,0 +1,3 @@
+79f2ef78890b40bd11203997e64f6d625981cca31af556f4292ad08eba84954a  naive/naive_results.csv
+eef54eb693069eaebe73ca7ad8d59a05b63407242d249b63149aded745aacccd  naive/naive_baselines.py
+5098d7064f48d8700fbfff4f04d8f51e424219b4e17f913711f94568f6e50b69  naive/verify_naive.py
