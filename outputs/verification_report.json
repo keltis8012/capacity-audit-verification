@@ -1,0 +1,823 @@
+{
+  "generated_at": "2026-11-06T00:40:40.382459+00:00",
+  "data_root": "D:\\Paper\\educational and teaching reform\\new_20261030",
+  "n_checks": 95,
+  "n_pass": 95,
+  "n_warn": 0,
+  "n_fail": 0,
+  "checks": [
+    {
+      "name": "manifest sha256 01_DATA/data/oulad_events.csv",
+      "expected": "48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3",
+      "actual": "48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3",
+      "delta": null,
+      "status": "PASS",
+      "note": "2301102 bytes"
+    },
+    {
+      "name": "manifest sha256 01_DATA/data/xtx_train_truth.csv",
+      "expected": "cf3d2d0705b2d12aa1ffb84fe84698695873cb9c37a979c0d5e8aebe49da0858",
+      "actual": "cf3d2d0705b2d12aa1ffb84fe84698695873cb9c37a979c0d5e8aebe49da0858",
+      "delta": null,
+      "status": "PASS",
+      "note": "1383691 bytes"
+    },
+    {
+      "name": "manifest sha256 01_DATA/data/xtx_agg_train.csv",
+      "expected": "b7c9459154c557d8f3403bed4dc77d90d1cbce1a790fba26a8290bc59accafc2",
+      "actual": "b7c9459154c557d8f3403bed4dc77d90d1cbce1a790fba26a8290bc59accafc2",
+      "delta": null,
+      "status": "PASS",
+      "note": "13822869 bytes"
+    },
+    {
+      "name": "manifest sha256 01_DATA/data/kdd_events_train.csv",
+      "expected": "41b9a468c642b6489e56d9fb2db75e62fd1395d4553b1d6aec29d38fb7bd4d34",
+      "actual": "41b9a468c642b6489e56d9fb2db75e62fd1395d4553b1d6aec29d38fb7bd4d34",
+      "delta": null,
+      "status": "PASS",
+      "note": "17055215 bytes"
+    },
+    {
+      "name": "manifest sha256 04_PREMIUM/data/delta_who_oulad.csv",
+      "expected": "00c067d2318701980e99634f6394fe733b43ef325537505121cf9e6fdc3806c4",
+      "actual": "00c067d2318701980e99634f6394fe733b43ef325537505121cf9e6fdc3806c4",
+      "delta": null,
+      "status": "PASS",
+      "note": "3451 bytes"
+    },
+    {
+      "name": "manifest sha256 04_PREMIUM/data/delta_who_xtx_clean.csv",
+      "expected": "9d96cbdde05ec365851e1b4ce21260a9b0abeb2e998c5d5b6dc681af4bc48aa5",
+      "actual": "9d96cbdde05ec365851e1b4ce21260a9b0abeb2e998c5d5b6dc681af4bc48aa5",
+      "delta": null,
+      "status": "PASS",
+      "note": "1830 bytes"
+    },
+    {
+      "name": "manifest sha256 04_PREMIUM/data/decision_map.csv",
+      "expected": "a53748e192a59b326c62d35aede85300bfc22cdaf24c10d6a05827b6c8b96e0d",
+      "actual": "a53748e192a59b326c62d35aede85300bfc22cdaf24c10d6a05827b6c8b96e0d",
+      "delta": null,
+      "status": "PASS",
+      "note": "149 bytes"
+    },
+    {
+      "name": "manifest sha256 04_PREMIUM/reports/full_swap.json",
+      "expected": "90402a205ea88eeaa49b8775862d64e836dbf827def8bc7bde645ef378b2d9ff",
+      "actual": "90402a205ea88eeaa49b8775862d64e836dbf827def8bc7bde645ef378b2d9ff",
+      "delta": null,
+      "status": "PASS",
+      "note": "617 bytes"
+    },
+    {
+      "name": "manifest sha256 04_PREMIUM/reports/kdd_prediction.json",
+      "expected": "d22022e78930de49dc9733d5308211363ce27d090a718c5ee02b467536ee9885",
+      "actual": "d22022e78930de49dc9733d5308211363ce27d090a718c5ee02b467536ee9885",
+      "delta": null,
+      "status": "PASS",
+      "note": "435 bytes"
+    },
+    {
+      "name": "manifest sha256 04_PREMIUM/reports/kdd_observation.json",
+      "expected": "5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664",
+      "actual": "5bb25926fb3a422a7fb14f6aa01556029d17f36f09d335995e08714d82756664",
+      "delta": null,
+      "status": "PASS",
+      "note": "639 bytes"
+    },
+    {
+      "name": "manifest sha256 05_SIGNAL/data/oulad_scores.csv",
+      "expected": "12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558",
+      "actual": "12a38f08e6410821f0c73cff438699af48b680085e01f876018a8ed1fed69558",
+      "delta": null,
+      "status": "PASS",
+      "note": "20456090 bytes"
+    },
+    {
+      "name": "manifest sha256 05_SIGNAL/data/xtx_scores_clean.csv",
+      "expected": "c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257",
+      "actual": "c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257",
+      "delta": null,
+      "status": "PASS",
+      "note": "37611066 bytes"
+    },
+    {
+      "name": "manifest sha256 10_PAPER/figs/fig_manifest.json",
+      "expected": "d0fc7a8a960371ff4702d59f820efb54ecc93b710456f025718b983acc0e75fc",
+      "actual": "d0fc7a8a960371ff4702d59f820efb54ecc93b710456f025718b983acc0e75fc",
+      "delta": null,
+      "status": "PASS",
+      "note": "4713 bytes"
+    },
+    {
+      "name": "manifest sha256 build/manuscript.md",
+      "expected": "5bef14e7a3a5cad32cba65b5bb68340e8cc5ed50ac4c6964163e9d4311ab3c7f",
+      "actual": "5bef14e7a3a5cad32cba65b5bb68340e8cc5ed50ac4c6964163e9d4311ab3c7f",
+      "delta": null,
+      "status": "PASS",
+      "note": "59431 bytes"
+    },
+    {
+      "name": "OULAD rows (score panel)",
+      "expected": 15889,
+      "actual": 15889,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD withdrawals (panel)",
+      "expected": 3264,
+      "actual": 3264,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD reachable (panel)",
+      "expected": 2688,
+      "actual": 2688,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD horizon E[tau-1] (panel)",
+      "expected": 13.0,
+      "actual": 12.962053571428571,
+      "delta": -0.037946428571428825,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD AUC F1 (weekly rows)",
+      "expected": 0.6639,
+      "actual": 0.6638933423148083,
+      "delta": -6.6576851917021784e-06,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD AUC F2 (weekly rows)",
+      "expected": 0.6815,
+      "actual": 0.6814721040924123,
+      "delta": -2.7895907587671687e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD presentations (panel)",
+      "expected": 13,
+      "actual": 13,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD presentations (full)",
+      "expected": 22,
+      "actual": 22,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX rows (panel enrollments)",
+      "expected": 134032,
+      "actual": 134032,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX positives (panel)",
+      "expected": 96081,
+      "actual": 96081,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX reachable (panel)",
+      "expected": 72094,
+      "actual": 72094,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX horizon E[tau-1] (panel)",
+      "expected": 3.1,
+      "actual": 3.1252670125114435,
+      "delta": 0.025267012511443365,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX AUC (weekly rows)",
+      "expected": 0.7032,
+      "actual": 0.7031588128560377,
+      "delta": -4.1187143962395645e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX course median AUC",
+      "expected": 0.6669,
+      "actual": 0.6668960444060492,
+      "delta": -3.955593950832892e-06,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX enrollments (full)",
+      "expected": 157943,
+      "actual": 157943,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX positives (full)",
+      "expected": 119817,
+      "actual": 119817,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX courses (full)",
+      "expected": 247,
+      "actual": 247,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX courses (panel)",
+      "expected": 246,
+      "actual": 246,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD enrollments",
+      "expected": 120542,
+      "actual": 120542,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD positives",
+      "expected": 95581,
+      "actual": 95581,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD reachable",
+      "expected": 44777,
+      "actual": 44777,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD courses",
+      "expected": 39,
+      "actual": 39,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD horizon E[tau-1]",
+      "expected": 2.7,
+      "actual": 2.683877883734953,
+      "delta": -0.016122116265047115,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F1 peak height",
+      "expected": 0.14,
+      "actual": 0.1400176678445229,
+      "delta": 1.766784452289505e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F1 peak midpoint",
+      "expected": 0.0384,
+      "actual": 0.0384092369594303,
+      "delta": 9.236959430301839e-06,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F2 peak height",
+      "expected": 0.1691,
+      "actual": 0.1690874035989716,
+      "delta": -1.2596401028408533e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F2 peak midpoint",
+      "expected": 0.0385,
+      "actual": 0.03850187059907926,
+      "delta": 1.8705990792594607e-06,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX peak height",
+      "expected": 0.0615,
+      "actual": 0.0614697478292229,
+      "delta": -3.025217077710224e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX peak midpoint",
+      "expected": 0.2722,
+      "actual": 0.272185662838486,
+      "delta": -1.4337161513999774e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F1 capture at 5%",
+      "expected": 0.639,
+      "actual": 0.6386925795053003,
+      "delta": -0.0003074204946996728,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F2 capture at 5%",
+      "expected": 0.686,
+      "actual": 0.6857326478149101,
+      "delta": -0.00026735218508999736,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX capture at 5%",
+      "expected": 0.103,
+      "actual": 0.1029073154492745,
+      "delta": -9.268455072548865e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F1 random at 5%",
+      "expected": 0.524,
+      "actual": 0.523851590106007,
+      "delta": -0.00014840989399300675,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "OULAD F2 random at 5%",
+      "expected": 0.549,
+      "actual": 0.549293059125964,
+      "delta": 0.0002930591259640014,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "XTX random at 5%",
+      "expected": 0.086,
+      "actual": 0.0856645490609481,
+      "delta": -0.0003354509390518928,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "ratio 1% F1",
+      "expected": 14.75,
+      "actual": 14.74863306676605,
+      "delta": -0.001366933233949652,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "ratio 1% F2",
+      "expected": 17.51,
+      "actual": 17.50727912325825,
+      "delta": -0.0027208767417512547,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "ratio 5% F1",
+      "expected": 6.66,
+      "actual": 6.660241565242278,
+      "delta": 0.00024156524227780807,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "ratio 5% F2",
+      "expected": 7.91,
+      "actual": 7.9128595502702135,
+      "delta": 0.00285955027021334,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "swap base position",
+      "expected": 0.431,
+      "actual": 0.431,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "swap cell (real x estimator)",
+      "expected": 0.2,
+      "actual": 0.2,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "observed position",
+      "expected": 0.2722,
+      "actual": 0.272185662838486,
+      "delta": -1.4337161513999774e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "input effect",
+      "expected": -0.231,
+      "actual": -0.23099999999999998,
+      "delta": 2.7755575615628914e-17,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "mechanical effect",
+      "expected": 0.0722,
+      "actual": 0.07218566283848599,
+      "delta": -1.4337161514013652e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "net gap",
+      "expected": -0.1588,
+      "actual": -0.158814337161514,
+      "delta": -1.4337161513999774e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD prediction mid",
+      "expected": 0.4499,
+      "actual": 0.449884844271924,
+      "delta": -1.5155728076032826e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD band lower",
+      "expected": 0.3099,
+      "actual": 0.309884844271924,
+      "delta": -1.5155728076032826e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD band upper",
+      "expected": 0.5899,
+      "actual": 0.589884844271924,
+      "delta": -1.5155728075977315e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD observed mid",
+      "expected": 0.4114,
+      "actual": 0.41136877529913873,
+      "delta": -3.1224700861254284e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD observed lower CI",
+      "expected": 0.3076,
+      "actual": 0.3075722810923633,
+      "delta": -2.771890763669793e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "KDD containment gap",
+      "expected": 0.0023,
+      "actual": 0.0023125631795606894,
+      "delta": 1.2563179560689391e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "fold position spread",
+      "expected": 0.0026,
+      "actual": 0.002408849452037604,
+      "delta": -0.00019115054796239568,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "fold AUC spread",
+      "expected": 0.0265,
+      "actual": 0.026510016568760276,
+      "delta": 1.0016568760276567e-05,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "fold height spread",
+      "expected": 0.208,
+      "actual": 0.2076147689213623,
+      "delta": -0.00038523107863769335,
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "name": "figure fig5 sha256",
+      "expected": "219e1c40e52d47a6cb8b84190bb587cf06a4154db13e9fa7935f19a880f9e56d",
+      "actual": "219e1c40e52d47a6cb8b84190bb587cf06a4154db13e9fa7935f19a880f9e56d",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig6 sha256",
+      "expected": "e73d396e89b76a91f8657218dbabbfa6fc0c7f92fc0a036da5d3ffa19edc2054",
+      "actual": "e73d396e89b76a91f8657218dbabbfa6fc0c7f92fc0a036da5d3ffa19edc2054",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig7 sha256",
+      "expected": "a30cb9295b55ae04f6b50c12cb2640646f3c53a12ec1d7cc7490289556befdc8",
+      "actual": "a30cb9295b55ae04f6b50c12cb2640646f3c53a12ec1d7cc7490289556befdc8",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig8 sha256",
+      "expected": "2c4b4def87f5d5cc91fba723aa31523628f41b29072180c44357744759cdcdc4",
+      "actual": "2c4b4def87f5d5cc91fba723aa31523628f41b29072180c44357744759cdcdc4",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig2 sha256",
+      "expected": "4d180622f8d5f9234126db21289430af483e359d6ba8d2297d81c8eb6345874d",
+      "actual": "4d180622f8d5f9234126db21289430af483e359d6ba8d2297d81c8eb6345874d",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig2 data 01_DATA/data/oulad_events.csv",
+      "expected": "48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3",
+      "actual": "48ea54168ef462c73d2a1befd47fc2beff5b5e3cf755f2789a2eca31841ab6b3",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig2 data 05_SIGNAL/data/xtx_scores_clean.csv",
+      "expected": "c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257",
+      "actual": "c7672a966b87f53c7225825b85807ef0eb5edbec1c880520227c887c40e17257",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig3 sha256",
+      "expected": "52ee569a0b4dd64dfbf1ff398c9b5249f425b650e384b5969fa263f3b6e65f20",
+      "actual": "52ee569a0b4dd64dfbf1ff398c9b5249f425b650e384b5969fa263f3b6e65f20",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig3 data 05_SIGNAL/data/per_course_auc.csv",
+      "expected": "544eab72167c5a164f2e8a2fdc1cb8f72a3010eef91da503cc78458023993877",
+      "actual": "544eab72167c5a164f2e8a2fdc1cb8f72a3010eef91da503cc78458023993877",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig4 sha256",
+      "expected": "cbc10ef74a3063e153f994b210243590235b5533cc14b3863a59bf22bb11bb9d",
+      "actual": "cbc10ef74a3063e153f994b210243590235b5533cc14b3863a59bf22bb11bb9d",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig4 data 04_PREMIUM/data/who_oulad_raw.csv",
+      "expected": "17911f266b81eda17c74bbd518883bbb3310c6721dd16704ca468173d46aade7",
+      "actual": "17911f266b81eda17c74bbd518883bbb3310c6721dd16704ca468173d46aade7",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig4 data 04_PREMIUM/data/delta_who_xtx_clean.csv",
+      "expected": "9d96cbdde05ec365851e1b4ce21260a9b0abeb2e998c5d5b6dc681af4bc48aa5",
+      "actual": "9d96cbdde05ec365851e1b4ce21260a9b0abeb2e998c5d5b6dc681af4bc48aa5",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig1 sha256",
+      "expected": "280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892",
+      "actual": "280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "figure fig_toy sha256",
+      "expected": "1fa5817d9cd9af68dd8803c49f35765f7b321ad61ba03d9c09f841a21917dfb0",
+      "actual": "1fa5817d9cd9af68dd8803c49f35765f7b321ad61ba03d9c09f841a21917dfb0",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "verification_v1 script sha256",
+      "expected": "b9f993be5ff45693b69bb52a8142d7580a6e581867c9ac551636620532459742",
+      "actual": "b9f993be5ff45693b69bb52a8142d7580a6e581867c9ac551636620532459742",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "verification_v1 result sha256",
+      "expected": "f289b72e1341f99351f5f205a4dc5752a144cc8a9bfcb39f2939dddcafa11362",
+      "actual": "f289b72e1341f99351f5f205a4dc5752a144cc8a9bfcb39f2939dddcafa11362",
+      "delta": null,
+      "status": "PASS",
+      "note": "byte hash"
+    },
+    {
+      "name": "text contains Table 1 OULAD panel",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '15,889'"
+    },
+    {
+      "name": "text contains Table 1 XTX panel",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '134,032'"
+    },
+    {
+      "name": "text contains Table 1 KDD",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '120,542'"
+    },
+    {
+      "name": "text contains Table 1 OULAD positives",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '3,264'"
+    },
+    {
+      "name": "text contains Table 1 OULAD reachable",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '2,688'"
+    },
+    {
+      "name": "text contains Table 1 XTX positives",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '96,081'"
+    },
+    {
+      "name": "text contains Table 1 XTX reachable",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '72,094'"
+    },
+    {
+      "name": "text contains Table 1 KDD reachable",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '44,777'"
+    },
+    {
+      "name": "text contains OULAD peak",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '0.0385'"
+    },
+    {
+      "name": "text contains XTX peak",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '0.2722'"
+    },
+    {
+      "name": "text contains dry-run gap",
+      "expected": true,
+      "actual": true,
+      "delta": 0.0,
+      "status": "PASS",
+      "note": "token '0.0023'"
+    }
+  ],
+  "peaks": {
+    "F1": {
+      "dmax": 0.1400176678445229,
+      "argmax": 0.04,
+      "mid": 0.0384092369594303,
+      "lo": 0.03237980769230765,
+      "hi": 0.04556140350877194,
+      "n": 16
+    },
+    "F2": {
+      "dmax": 0.1690874035989716,
+      "argmax": 0.04,
+      "mid": 0.03850187059907926,
+      "lo": 0.03281147540983607,
+      "hi": 0.04517913385826773,
+      "n": 16
+    },
+    "XTX": {
+      "dmax": 0.0614697478292229,
+      "argmax": 0.3,
+      "mid": 0.272185662838486,
+      "lo": 0.21275158745430076,
+      "hi": 0.348223183391003,
+      "n": 21
+    }
+  },
+  "captures": {
+    "F1": [
+      0.6386925795053003,
+      0.523851590106007
+    ],
+    "F2": [
+      0.6857326478149101,
+      0.549293059125964
+    ],
+    "XTX": [
+      0.1029073154492745,
+      0.0856645490609481
+    ]
+  },
+  "ratios": {
+    "0.01_F1": 14.74863306676605,
+    "0.01_F2": 17.50727912325825,
+    "0.05_F1": 6.660241565242278,
+    "0.05_F2": 7.9128595502702135
+  },
+  "swap": {
+    "base": 0.431,
+    "swap": 0.2,
+    "observed": 0.272185662838486,
+    "input_effect": -0.23099999999999998,
+    "mechanical_effect": 0.07218566283848599
+  }
+}
