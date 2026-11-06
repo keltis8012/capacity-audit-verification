@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T04:35:34.742576+00:00",
+  "generated_at": "2026-11-06T04:40:42.069605+00:00",
   "data_root": "D:\\Paper\\educational and teaching reform\\new_20261030",
   "n_checks": 92,
   "n_pass": 92,
@@ -104,8 +104,8 @@
     },
     {
       "name": "manifest sha256 10_PAPER/figs/fig_manifest.json",
-      "expected": "dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185",
-      "actual": "dede7b29ec14831ed3c448ff65ef481713b1c4e339c6caa016a1f4c79eb98185",
+      "expected": "9c7e48a165cb0ee6ca33fd690d0283a70dc345cf7e9fa8e09b34d3054a711c7b",
+      "actual": "9c7e48a165cb0ee6ca33fd690d0283a70dc345cf7e9fa8e09b34d3054a711c7b",
       "delta": null,
       "status": "PASS",
       "note": "4005 bytes"
@@ -568,8 +568,8 @@
     },
     {
       "name": "figure fig7 sha256",
-      "expected": "15b07471e67893a005fd4eede4154c78adbef6cfa8f91b636a1e7d0f3c38d2fb",
-      "actual": "15b07471e67893a005fd4eede4154c78adbef6cfa8f91b636a1e7d0f3c38d2fb",
+      "expected": "a1f489572edd1abb3fcd1a55ee9880ec5c8405550ecbc8ac76528be579739ac5",
+      "actual": "a1f489572edd1abb3fcd1a55ee9880ec5c8405550ecbc8ac76528be579739ac5",
       "delta": null,
       "status": "PASS",
       "note": "byte hash"
@@ -584,8 +584,8 @@
     },
     {
       "name": "figure fig2 sha256",
-      "expected": "1e5afed007e929de557b74377a1465b834fad4f7321408df59d48e8dc7a68ba3",
-      "actual": "1e5afed007e929de557b74377a1465b834fad4f7321408df59d48e8dc7a68ba3",
+      "expected": "5474f75c83b9521a46f6c9359ce7ac67dea52526be67fc03b6cbf1e2d8b9d421",
+      "actual": "5474f75c83b9521a46f6c9359ce7ac67dea52526be67fc03b6cbf1e2d8b9d421",
       "delta": null,
       "status": "PASS",
       "note": "byte hash"
