@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T03:16:55.576592+00:00",
+  "generated_at": "2026-11-06T03:34:01.345539+00:00",
   "data_root": "D:\\Paper\\educational and teaching reform\\new_20261030",
-  "n_checks": 95,
-  "n_pass": 95,
+  "n_checks": 92,
+  "n_pass": 92,
   "n_warn": 0,
   "n_fail": 0,
   "checks": [
@@ -104,11 +104,11 @@
     },
     {
       "name": "manifest sha256 10_PAPER/figs/fig_manifest.json",
-      "expected": "d0fc7a8a960371ff4702d59f820efb54ecc93b710456f025718b983acc0e75fc",
-      "actual": "d0fc7a8a960371ff4702d59f820efb54ecc93b710456f025718b983acc0e75fc",
+      "expected": "7a0433c53c61c0124b64a66ff13588556651dabbeeb138d37a25b806240c7297",
+      "actual": "7a0433c53c61c0124b64a66ff13588556651dabbeeb138d37a25b806240c7297",
       "delta": null,
       "status": "PASS",
-      "note": "4713 bytes"
+      "note": "3969 bytes"
     },
     {
       "name": "manifest sha256 build/manuscript.md",
@@ -584,8 +584,8 @@
     },
     {
       "name": "figure fig2 sha256",
-      "expected": "4d180622f8d5f9234126db21289430af483e359d6ba8d2297d81c8eb6345874d",
-      "actual": "4d180622f8d5f9234126db21289430af483e359d6ba8d2297d81c8eb6345874d",
+      "expected": "9ae7b89d97ccb512e021647b20b4b114a7db27e196754514bac566db6c4f3f99",
+      "actual": "9ae7b89d97ccb512e021647b20b4b114a7db27e196754514bac566db6c4f3f99",
       "delta": null,
       "status": "PASS",
       "note": "byte hash"
@@ -624,8 +624,8 @@
     },
     {
       "name": "figure fig4 sha256",
-      "expected": "cbc10ef74a3063e153f994b210243590235b5533cc14b3863a59bf22bb11bb9d",
-      "actual": "cbc10ef74a3063e153f994b210243590235b5533cc14b3863a59bf22bb11bb9d",
+      "expected": "12a178bacbccf361ba24a3a53e3af97730d48b6adf682cc421b6d8d6e0e40fcb",
+      "actual": "12a178bacbccf361ba24a3a53e3af97730d48b6adf682cc421b6d8d6e0e40fcb",
       "delta": null,
       "status": "PASS",
       "note": "byte hash"
@@ -650,30 +650,6 @@
       "name": "figure fig1 sha256",
       "expected": "280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892",
       "actual": "280b1733f02446d1e3725ef66042da9d78e47d2e159caca6b41ec88e48341892",
-      "delta": null,
-      "status": "PASS",
-      "note": "byte hash"
-    },
-    {
-      "name": "figure fig_toy sha256",
-      "expected": "1fa5817d9cd9af68dd8803c49f35765f7b321ad61ba03d9c09f841a21917dfb0",
-      "actual": "1fa5817d9cd9af68dd8803c49f35765f7b321ad61ba03d9c09f841a21917dfb0",
-      "delta": null,
-      "status": "PASS",
-      "note": "byte hash"
-    },
-    {
-      "name": "verification_v1 script sha256",
-      "expected": "b9f993be5ff45693b69bb52a8142d7580a6e581867c9ac551636620532459742",
-      "actual": "b9f993be5ff45693b69bb52a8142d7580a6e581867c9ac551636620532459742",
-      "delta": null,
-      "status": "PASS",
-      "note": "byte hash"
-    },
-    {
-      "name": "verification_v1 result sha256",
-      "expected": "f289b72e1341f99351f5f205a4dc5752a144cc8a9bfcb39f2939dddcafa11362",
-      "actual": "f289b72e1341f99351f5f205a4dc5752a144cc8a9bfcb39f2939dddcafa11362",
       "delta": null,
       "status": "PASS",
       "note": "byte hash"
