@@ -110,3 +110,10 @@ The committed run reports **92 checks, 92 PASS, 0 WARN, 0 FAIL**.
 
 Code: MIT. Data are governed by the original dataset terms (OULAD, XuetangX,
 KDD Cup 2015).
+
+
+## Artifact (M2 + M8)
+
+- artifact/code/01_who_oulad.py reproduces who_oulad_raw.csv at SHA-256 17911f...
+- artifact/naive/ contains the cumulative-activity and recency baseline audit.
+- Release: https://github.com/keltis8012/capacity-audit-verification/releases
